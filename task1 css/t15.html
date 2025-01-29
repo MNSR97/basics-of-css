@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T15</title>
+  <style>
+    .red {
+    color: red;
+}
+
+.title {
+  font-family: "Lobster", serif;
+
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  border: 10px solid #008000;
+}
+
+.bg {
+  background-color: #c0c0c0;
+  p {
+    font-weight: bold;
+  }
+}
+
+.bg2 {
+  background-color: #008000;
+}
+  </style>
+
+</head>
+<body>
+  <h1 class="red title">CatPhotoApp</h1>
+  <h3><code class="red">Click here to view more <a href="">cat photos</a>.</code></h3>
+  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVw-LAmbK2ORwtUY8N69DC1_XzsZ9j5s2ZXSxBeVkYIxEa5QZrlheZILGVGMtSqCDTx6fWsu6U4x0BVwcd7BxLHDVTnnNIzRGRwD1CWE4" alt="">
+  <div class="bg">
+    <p>Things cats love:</p>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+    </ul>
+
+    <p>Top 3 things cats hate:</p>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+  </div>
+  
+  <div class="bg2">
+    <form action="">
+      <div>
+        <input type="radio" name="indoor_outdoor" value="Indoor"> Indoor
+        <input type="radio" name="indoor_outdoor" value="Outdoor"> Outdoor
+      </div>
+      
+      <div>
+        <input type="checkbox" name="personality" value="Loving" checked> Loving
+        <input type="checkbox" name="personality" value="Lazy"> Lazy
+        <input type="checkbox" name="personality" value="Energetic"> Energetic
+      </div>
+      
+      <div>
+        <input type="text" name="cat_photo_url" placeholder="cat photo URL">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>

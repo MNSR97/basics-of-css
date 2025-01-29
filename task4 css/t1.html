@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T1</title>
+    <style>
+      
+
+.relative {
+  margin-top: 100px;
+  position: relative;
+  border: 1px solid black;
+  height: 100px;
+  padding: 20px;
+  z-index: 0;
+}
+
+.absolute {
+  position: absolute;
+  top: 75px;
+  left: 300px;
+  width: 500px;
+  background-color: #90ee90 ;
+  height: 100px;
+  color: white;
+  padding: 20px;
+}
+
+.fixed {
+  position: fixed;
+  top: 210px;
+  left: 30px;
+  width: 100%;
+  background-color: blue;
+  height: 100px;
+  color: white;
+  padding: 20px;
+  width: 80%;
+  z-index: 1;
+}
+    </style>
+    
+  </head>
+  <body>
+    <div class="relative">Div 1 Position Relative</div>
+    <div class="absolute">Div 3 Position Absolute</div>
+    <div class="fixed">Div 2 Position Fixed & z-index</div>
+
+  
+  </body>
+  </html>
